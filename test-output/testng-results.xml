@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Database Connection Done]]>
+    </line>
+    <line>
+      <![CDATA[Pre_conditions executed]]>
+    </line>
+    <line>
+      <![CDATA[Browser launched]]>
+    </line>
+    <line>
+      <![CDATA[Application login Done]]>
+    </line>
+    <line>
+      <![CDATA[>>>>>>>Test execution Failure<<<<<<<<]]>
+    </line>
+    <line>
+      <![CDATA[Application logout Done]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Post_conditions executed]]>
+    </line>
+    <line>
+      <![CDATA[Database Connection terminated]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-12-13T23:27:00 IST" name="Default suite" finished-at="2025-12-13T23:27:20 IST" duration-ms="19824">
+    <groups>
+    </groups>
+    <test started-at="2025-12-13T23:27:00 IST" name="Default test" finished-at="2025-12-13T23:27:20 IST" duration-ms="19824">
+      <class name="org.BlueNile.Testcases.CG_BN_007_InvalidEmailFormatInNewsletterSubscription_Test">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:org.BlueNile.Testcases.CG_BN_007_InvalidEmailFormatInNewsletterSubscription_Test@6a6cb05c]" started-at="2025-12-13T23:27:00 IST" name="beforeSuite" finished-at="2025-12-13T23:27:00 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database Connection Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:org.BlueNile.Testcases.CG_BN_007_InvalidEmailFormatInNewsletterSubscription_Test@6a6cb05c]" started-at="2025-12-13T23:27:00 IST" name="beforeTest" finished-at="2025-12-13T23:27:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Pre_conditions executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.BlueNile.Testcases.CG_BN_007_InvalidEmailFormatInNewsletterSubscription_Test@6a6cb05c]" started-at="2025-12-13T23:27:00 IST" name="beforeClass" finished-at="2025-12-13T23:27:02 IST" duration-ms="1694" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.BlueNile.Testcases.CG_BN_007_InvalidEmailFormatInNewsletterSubscription_Test@6a6cb05c]" started-at="2025-12-13T23:27:02 IST" name="beforeMethod" finished-at="2025-12-13T23:27:12 IST" duration-ms="10047" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application login Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="BlueNile_List()[pri:0, instance:org.BlueNile.Testcases.CG_BN_007_InvalidEmailFormatInNewsletterSubscription_Test@6a6cb05c]" started-at="2025-12-13T23:27:12 IST" name="BlueNile_List" finished-at="2025-12-13T23:27:19 IST" duration-ms="7058" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Text did NOT match! expected [Plea include an '@' in the email address. '123456789' is missing an '@'.] but found [Please include an '@' in the email address. '123456789' is missing an '@'.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Text did NOT match! expected [Plea include an '@' in the email address. '123456789' is missing an '@'.] but found [Please include an '@' in the email address. '123456789' is missing an '@'.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.BlueNile.Testcases.CG_BN_007_InvalidEmailFormatInNewsletterSubscription_Test.BlueNile_List(CG_BN_007_InvalidEmailFormatInNewsletterSubscription_Test.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[>>>>>>>Test execution Failure<<<<<<<<]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BlueNile_List -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.BlueNile.Testcases.CG_BN_007_InvalidEmailFormatInNewsletterSubscription_Test@6a6cb05c]" started-at="2025-12-13T23:27:19 IST" name="afterMethod" finished-at="2025-12-13T23:27:19 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application logout Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.BlueNile.Testcases.CG_BN_007_InvalidEmailFormatInNewsletterSubscription_Test@6a6cb05c]" started-at="2025-12-13T23:27:19 IST" name="afterClass" finished-at="2025-12-13T23:27:20 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:org.BlueNile.Testcases.CG_BN_007_InvalidEmailFormatInNewsletterSubscription_Test@6a6cb05c]" started-at="2025-12-13T23:27:20 IST" name="afterTest" finished-at="2025-12-13T23:27:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Post_conditions executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:org.BlueNile.Testcases.CG_BN_007_InvalidEmailFormatInNewsletterSubscription_Test@6a6cb05c]" started-at="2025-12-13T23:27:20 IST" name="afterSuite" finished-at="2025-12-13T23:27:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database Connection terminated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.BlueNile.Testcases.CG_BN_007_InvalidEmailFormatInNewsletterSubscription_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

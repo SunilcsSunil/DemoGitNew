@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BatchExecution]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.BlueNile.Testcases.CG_BN_001_AddToCart_Test">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="addToCart"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.BlueNile.Testcases.CG_BN_001_AddToCart_Test -->
+      <class name="org.BlueNile.Testcases.CG_BN_002_AddToWishList_Test">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="ADDToWishList"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.BlueNile.Testcases.CG_BN_002_AddToWishList_Test -->
+      <class name="org.BlueNile.Testcases.CG_BN_003_RemoveFromWishList_Test">
+        <methods>
+          <include name="REMOVEfromWishList"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.BlueNile.Testcases.CG_BN_003_RemoveFromWishList_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [BatchExecution] -->
